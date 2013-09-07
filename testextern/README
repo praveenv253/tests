@@ -1,0 +1,5 @@
+Turns out that functions are declared extern by default. Meaning definitions
+are not necessarily looked for in the same file.
+
+Just that at the time of linking, you need to be able to see all functions
+that are being called.
