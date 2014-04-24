@@ -1,4 +1,6 @@
 #include <iostream>
+#include <wchar.h>
+#include <complex.h>
 
 using namespace std;
 
@@ -16,5 +18,7 @@ int main()
 	cout << "sizeof(int *): " << sizeof(int *) << endl;
 	cout << "sizeof(float *): " << sizeof(float *) << endl;
 	cout << "sizeof(double *): " << sizeof(double *) << endl;
+	cout << "sizeof(wchar): " << sizeof(wchar_t) << endl;
+	cout << "sizeof(double complex): " << sizeof(double complex) << endl;
 	return 0;
 }
