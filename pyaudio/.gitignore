@@ -1,0 +1,5 @@
+# Do not track sound files
+*.wav
+
+# Do not track data files
+*.txt
