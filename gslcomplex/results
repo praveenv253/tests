@@ -1,0 +1,99 @@
+Thinkpad E430, Intel Core i5-3210M 4x2.50GHz
+
+---
+
+gsl_complex_add vs std::complex::operator+ for complex-double arrays of size
+1e7:
+
+praveen@antares:~/C++Files/tests$ ./gslvscomplex 
+GSL: 0.09
+std::complex: 0.18
+praveen@antares:~/C++Files/tests$ ./gslvscomplex 
+GSL: 0.1
+std::complex: 0.18
+praveen@antares:~/C++Files/tests$ ./gslvscomplex 
+GSL: 0.09
+std::complex: 0.19
+praveen@antares:~/C++Files/tests$ ./gslvscomplex 
+GSL: 0.09
+std::complex: 0.19
+praveen@antares:~/C++Files/tests$ ./gslvscomplex 
+GSL: 0.09
+std::complex: 0.19
+
+gsl_complex_add is about 2x the speed of std::complex::operator+.
+
+---
+
+gsl_complex_mul vs std::complex::operator* for complex-double arrays of size
+1e7:
+
+praveen@antares:~/C++Files/tests/testgslcomplex$ ./gslvscomplex 
+GSL: 0.1
+std::complex: 0.24
+praveen@antares:~/C++Files/tests/testgslcomplex$ ./gslvscomplex 
+GSL: 0.1
+std::complex: 0.24
+praveen@antares:~/C++Files/tests/testgslcomplex$ ./gslvscomplex 
+GSL: 0.1
+std::complex: 0.23
+praveen@antares:~/C++Files/tests/testgslcomplex$ ./gslvscomplex 
+GSL: 0.11
+std::complex: 0.23
+praveen@antares:~/C++Files/tests/testgslcomplex$ ./gslvscomplex 
+GSL: 0.09
+std::complex: 0.24
+praveen@antares:~/C++Files/tests/testgslcomplex$ ./gslvscomplex 
+GSL: 0.1
+std::complex: 0.24
+
+gsl_complex_mul is more than twice as fast as std::complex::operator*.
+
+---
+
+gsl_complex_add vs std::complex<float>::operator+
+
+./gslvscomplex 
+GSL: 0.09
+std::complex: 0.19
+praveen@antares:~/C++Files/tests/testgslcomplex$ ./gslvscomplex 
+GSL: 0.1
+std::complex: 0.18
+praveen@antares:~/C++Files/tests/testgslcomplex$ ./gslvscomplex 
+GSL: 0.1
+std::complex: 0.18
+praveen@antares:~/C++Files/tests/testgslcomplex$ ./gslvscomplex 
+GSL: 0.1
+std::complex: 0.18
+praveen@antares:~/C++Files/tests/testgslcomplex$ ./gslvscomplex 
+GSL: 0.1
+std::complex: 0.18
+
+gsl_complex_mul is once again ~2x as fast as std::complex<float>::operator*.
+
+---
+
+gsl_complex_mul vs std::complex<float>::operator*
+
+praveen@antares:~/C++Files/tests/testgslcomplex$ ./gslvscomplex 
+GSL: 0.11
+std::complex: 0.27
+praveen@antares:~/C++Files/tests/testgslcomplex$ ./gslvscomplex 
+GSL: 0.09
+std::complex: 0.28
+praveen@antares:~/C++Files/tests/testgslcomplex$ ./gslvscomplex 
+GSL: 0.1
+std::complex: 0.28
+praveen@antares:~/C++Files/tests/testgslcomplex$ ./gslvscomplex 
+GSL: 0.1
+std::complex: 0.28
+praveen@antares:~/C++Files/tests/testgslcomplex$ ./gslvscomplex 
+GSL: 0.1
+std::complex: 0.28
+praveen@antares:~/C++Files/tests/testgslcomplex$ ./gslvscomplex 
+GSL: 0.09
+std::complex: 0.28
+
+gsl_complex_mul is almost 3x as fast as std::complex<float>::operator*
+Also, std::complex<double>::operator* seems to be faster than
+std::complex<float>::operator*.
