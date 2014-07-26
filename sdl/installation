@@ -1,0 +1,19 @@
+Getting openGL/SDL to work:
+
+For openGL use:
+sudo apt-get install libglu1-mesa-dev freeglut3-dev mesa-common-dev
+
+For SDL use:
+sudo apt-get install libsdl1.2-dev libsdl-image1.2-dev libsdl-mixer1.2-dev libsdl-ttf2.0-dev
+
+The two do not seem to be interdependant
+
+Compilation is done as follows:
+
+For openGL:
+Compile using ++ with -lGL -lGLU and -lglut
+
+For SDL:
+Compile using g++ with -lSDL
+
+Look at http://lazyfoo.net
