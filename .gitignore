@@ -1,4 +1,5 @@
 # Don't track binaries
+ascii
 funcinfunc
 pointersubtraction
 printfcuda
