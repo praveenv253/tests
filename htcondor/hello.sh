@@ -4,4 +4,4 @@
 echo "Hello from `uname -n`, arg = '$1'"
 
 # Create an output file of some sort
-echo "`uname -n`, arg = '$1'" > "test-io-$1.out"
+echo "`uname -n`, arg = '$1'" > "test-hello-${1}.out"
