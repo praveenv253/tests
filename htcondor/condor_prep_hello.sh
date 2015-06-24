@@ -22,6 +22,10 @@
 #   A function that accepts the job number (1..$num_jobs), and defines a
 #   variable called `outfile_name`, containing a comma separated list of the
 #   names of output files that the executable produces for that job number.
+# - get_jobspec()
+#   An optional function that accepts the job number (1..$num_jobs), and
+#   defines a variable called `jobspec` that contains a suitable job
+#   description, possibly for parsing while post-processing.
 
 ## Note about file permissions:
 #
@@ -53,6 +57,12 @@ get_args() {
 }
 get_outfile_name() {
 	outfile_name="test-hello-${1}.out"
+}
+
+# Job description
+get_jobspec() {
+	# Assume that get_args and get_outfile_name are called before get_jobspec.
+	jobspec="$args $outfile_name"
 }
 
 # Job details
