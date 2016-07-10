@@ -4,6 +4,12 @@
 Constructs a spherical grid using the bisection method.
 """
 
+#
+# XXX This script has a bug - the bisection is not performed along the arcs of
+#     great circles; it is performed along latitudes. This needs to be
+#     corrected.
+#
+
 from __future__ import print_function, division
 
 import sys
