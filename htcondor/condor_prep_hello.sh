@@ -42,7 +42,7 @@
 
 # Condor directory - directory containing code source repository and other
 # necessary repositories (eg. fieldtrip).
-condor_dir="/afs/ece.cmu.edu/usr/$USER/Public/condor"
+condor_dir="$HOME/Public/condor"
 
 # Name of this task - used to name the results folder and the log files.
 task_name="hello"
