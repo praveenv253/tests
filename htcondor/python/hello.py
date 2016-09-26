@@ -14,7 +14,7 @@ if __name__ == '__main__':
     arg = sys.argv[1] if len(sys.argv) >= 2 else ''
 
     # Get the current computer's name
-    comp_name = subprocess.check_output(['uname', '-n'])
+    comp_name = subprocess.check_output(['uname', '-n']).decode('ascii').strip()
 
     # Write something to stdout
     print("Hello from %s, arg = '%s'" % (comp_name, arg))
