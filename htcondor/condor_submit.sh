@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Results directory and directory for stdout, stderr and Condor logs
-results_dir="/tmp/$USER/${task_name}_$(date '+%Y%m%d_%H%M%S')"
+results_dir="/scratch/$USER/${task_name}_$(date '+%Y%m%d_%H%M%S')"
 logdir="logs"
 echo "Setting up results directory: $results_dir"
 mkdir -p "$results_dir/$logdir"
