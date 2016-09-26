@@ -11,7 +11,7 @@ import sklearn
 
 if __name__ == '__main__':
     # Get first program argument, if it exists
-    arg = sys.argv[1] if len(sys.argv >= 2) else ''
+    arg = sys.argv[1] if len(sys.argv) >= 2 else ''
 
     # Get the current computer's name
     comp_name = subprocess.check_output(['uname', '-n'])
