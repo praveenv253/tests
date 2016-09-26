@@ -26,7 +26,8 @@ echo "\
 Executable = $PWD/$indirection_script
 Universe = vanilla
 Getenv = True
-Requirements = (Arch == \"INTEL\" || Arch == \"X86_64\") && OpSys == \"LINUX\"
+Requirements = (Arch == \"INTEL\" || Arch == \"X86_64\") \\
+               && OpSysAndVer == \"RedHat7\"
 Copy_To_Spool = False
 Priority = 0
 Rank = TARGET.Mips
