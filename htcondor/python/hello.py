@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+import os
 import sys
 import subprocess
 
@@ -20,7 +21,7 @@ if __name__ == '__main__':
     print("Hello from %s, arg = '%s'" % (comp_name, arg))
 
     # Check project-home access
-    with open('/afs/ece/usr/praveen1/project-home/test.txt') as f:
+    with open(os.path.expanduser('~/project-home/test.txt')) as f:
         print('Checking project-home access: %s' % f.read())
 
     # Create an output file of some sort
