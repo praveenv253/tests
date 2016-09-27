@@ -49,7 +49,7 @@ task_name="hello"
 
 # Path to executable, or just the file itself, if the shell can find it.
 # This will be called via indirection.
-exec_path="$condor_dir/test-hello/hello.sh"
+exec_path="$condor_dir/tests/htcondor/hello.sh"
 
 # Program arguments and output file names
 get_args() {
