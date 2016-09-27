@@ -19,6 +19,10 @@ if __name__ == '__main__':
     # Write something to stdout
     print("Hello from %s, arg = '%s'" % (comp_name, arg))
 
+    # Check project-home access
+    with open('/afs/ece/usr/praveen1/project-home/test.txt') as f:
+        print('Checking project-home access: %s' % f.read())
+
     # Create an output file of some sort
     with open('test-hello-%s.out' % arg, 'w') as outfile:
         print("%s, arg = '%s'" % (comp_name, arg), file=outfile)
