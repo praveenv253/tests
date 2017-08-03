@@ -1,0 +1,21 @@
+\documentclass[pstricks,border=12pt]{standalone}
+
+\usepackage{pst-plot}
+\usepackage{pst-sigsys}
+
+\begin{document}
+
+\begin{pspicture}[showgrid](-3, -2)(9, 2)
+	% Axes
+	\psaxeslabels(0, 0)(-3, -2)(9, 2){$n$}{$x[n]$}
+
+	% x(t)
+	\psplot[style=Graph,style=Dash,linecolor=blue]{0}{8}{x 45 mul sin}
+
+	% x[n]
+	\psset{style=Stem, linecolor=teal, stemtagformat={\color{red}\scriptstyle}}
+	\psstem(0, -1){0, 0, 0}
+	\psstem[stemtag](1, 1){0.707107, 1, 0.707107, 0, -0.707107, -1, -0.707107, 0}
+\end{pspicture}
+
+\end{document}

@@ -1,0 +1,283 @@
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=latex 2014.12.15)  3 JAN 2017 17:19
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**test.tex
+(./test.tex
+LaTeX2e <2011/06/27>
+Babel <3.9h> and hyphenation patterns for 2 languages loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/standalone/standalone.cls
+Document Class: standalone 2012/09/15 v1.1b Class to compile TeX sub-files stan
+dalone
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is not detected.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2012/10/14 v2.6b package option processing (HA)
+
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+\XKV@toks=\toks14
+\XKV@tempa@toks=\toks15
+\XKV@depth=\count79
+File: xkeyval.tex 2012/10/14 v2.6b key=value parser (HA)
+
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/keyval.tex)))
+\sa@internal=\count80
+
+(/usr/share/texlive/texmf-dist/tex/latex/standalone/standalone.cfg
+File: standalone.cfg 2012/09/15 v1.1b Default configuration file for 'standalon
+e' class
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count81
+\c@section=\count82
+\c@subsection=\count83
+\c@subsubsection=\count84
+\c@paragraph=\count85
+\c@subparagraph=\count86
+\c@figure=\count87
+\c@table=\count88
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pstricks/pstricks.sty
+Package: pstricks 2013/12/12 v0.60 LaTeX wrapper for `PSTricks' (RN,HV)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pstricks/pstricks.tex
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/pst-xkey.tex
+File: pst-xkey.tex 2005/11/25 v1.6 PSTricks specialization of xkeyval (HA)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pstricks/pst-fp.tex
+`pst-fp' v0.05, 2010/01/17 (hv)
+\pstFP@xs=\count89
+\pstFP@xia=\count90
+\pstFP@xib=\count91
+\pstFP@xfa=\count92
+\pstFP@xfb=\count93
+\pstFP@rega=\count94
+\pstFP@regb=\count95
+\pstFP@regs=\count96
+\pstFP@times=\count97
+)
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks16
+)
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks17
+\pgfkeys@temptoks=\toks18
+
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
+\pgfkeys@tmptoks=\toks19
+))
+(/usr/share/texmf/tex/generic/pgf/utilities/pgffor.code.tex
+\pgffor@iter=\dimen103
+\pgffor@skip=\dimen104
+\pgffor@stack=\toks20
+\pgffor@toks=\toks21
+)
+\psLoopIndex=\count98
+
+`PSTricks' v2.51  <2014/02/03> (tvz)
+\pst@dima=\dimen105
+\pst@dimb=\dimen106
+\pst@dimc=\dimen107
+\pst@dimd=\dimen108
+\pst@dimg=\dimen109
+\pst@dimh=\dimen110
+\pst@dimm=\dimen111
+\pst@dimn=\dimen112
+\pst@dimo=\dimen113
+\pst@dimp=\dimen114
+\pst@hbox=\box26
+\pst@ibox=\box27
+\pst@boxg=\box28
+\pst@cnta=\count99
+\pst@cntb=\count100
+\pst@cntc=\count101
+\pst@cntd=\count102
+\pst@cntg=\count103
+\pst@cnth=\count104
+\pst@cntm=\count105
+\pst@cntn=\count106
+\pst@cnto=\count107
+\pst@cntp=\count108
+\@zero=\count109
+\pst@toks=\toks22
+(/usr/share/texlive/texmf-dist/tex/generic/pstricks/pstricks.con)
+\psunit=\dimen115
+\psxunit=\dimen116
+\psyunit=\dimen117
+\pst@C@@rType=\count110
+\pslinewidth=\dimen118
+\psk@startLW=\dimen119
+\psk@endLW=\dimen120
+\pst@customdefs=\toks23
+\pslinearc=\dimen121
+\pst@symbolStep=\dimen122
+\pst@symbolWidth=\dimen123
+\pst@symbolLinewidth=\dimen124
+\everypsbox=\toks24
+\psframesep=\dimen125
+\pslabelsep=\dimen126
+\sh@wgridXunit=\dimen127
+\sh@wgridYunit=\dimen128
+\pst@shift=\dimen129
+)
+File: pstricks.tex 2014/02/03 v2.51 `PSTricks' (tvz,hv)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pstricks/pst-fp.tex)
+File: pst-fp.tex 2014/02/03 v2.51 `PST-fp' (hv)
+
+(/usr/share/texmf/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: dvips.def on input line 225.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/dvips.def
+File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+))
+\sa@box=\box29
+\sa@yoffset=\skip43
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pst-plot/pst-plot.sty
+Package: pst-plot 2011/06/05 v1.00 LaTeX wrapper for `pst-plot' (HV)
+
+(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/pst-xkey.sty
+Package: pst-xkey 2005/11/25 v1.6 package wrapper for pst-xkey.tex (HA)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/multido/multido.sty
+Package: multido 2004/05/17 package wrapper for PSTricks `multido.tex', (HV/RN)
+
+
+(/usr/share/texlive/texmf-dist/tex/generic/multido/multido.tex
+ v1.42, 2010/05/14 <tvz>
+\multido@count=\count111
+\multidocount=\count112
+\multido@stuff=\toks25
+)
+File: multido.tex 2010/05/14 v1.42 `multido' (tvz,hv)
+)
+Package: pst-plot 2011/04/13 package wrapper for pst-plot.tex (hv)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pst-plot/pst-plot.tex
+ v1.58, 2014/01/16 (tvz,hv)
+\pstRadUnit=\dimen130
+\pstRadUnitInv=\dimen131
+\pst@linecnt=\count113
+\RCD@file=\read1
+\psxlabelsep=\dimen132
+\psylabelsep=\dimen133
+\psk@subticksize=\dimen134
+\pst@xticksizeA=\dimen135
+\pst@xticksizeB=\dimen136
+\pst@xticksizeC=\dimen137
+\pst@yticksizeA=\dimen138
+\pst@yticksizeB=\dimen139
+\pst@yticksizeC=\dimen140
+\@digitcounter=\count114
+\psk@llx=\dimen141
+\psk@lly=\dimen142
+\psk@urx=\dimen143
+\psk@ury=\dimen144
+\pst@xunit=\dimen145
+\pst@yunit=\dimen146
+)
+File: pst-plot.tex 2014/01/16 1.58 `pst-plot' (tvz,hv)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pst-sigsys/pst-sigsys.sty
+Package: pst-sigsys 2011/03/07 package wrapper for pst-sigsys.tex (fd)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pst-sigsys/pst-sigsys.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pst-node/pst-node.tex
+ v1.32, 2014/02/03
+\psrow=\count115
+\pscol=\count116
+\psmatrixcnt=\count117
+\psrowsep=\skip44
+\pscolsep=\skip45
+\pst@args=\count118
+\num@pts=\count119
+\pst@argcnt=\count120
+) `PST-SigSys' v1.4, 2011/03/07 (fd)
+\ss@ticklength=\dimen147
+\ss@signalsep=\dimen148
+\ss@zerowidth=\dimen149
+\ss@zeroradius=\dimen150
+\ss@zeroradiusinc=\dimen151
+\ss@polewidth=\dimen152
+\ss@polelength=\dimen153
+\ss@oplength=\dimen154
+\ss@opwidth=\dimen155
+\ss@opsep=\dimen156
+\ss@ldotssep=\dimen157
+\ss@ldotssize=\dimen158
+\ss@aoffset=\dimen159
+\ss@knoblength=\dimen160
+\ss@knobwidth=\dimen161
+\ss@temp@dimA=\dimen162
+\ss@temp@dimB=\dimen163
+\ss@temp@dimC=\dimen164
+\ss@temp@cnt=\count121
+\ss@calc@dim=\dimen165
+\ss@if@dimA=\dimen166
+\ss@if@dimB=\dimen167
+)
+File: pst-sigsys.tex 2011/03/07 v1.4 `PST-sigsys' (fd)
+) (./test.aux)
+\openout1 = `test.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 10.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 10.
+ [1
+
+]
+(./test.aux) ) 
+Here is how much of TeX's memory you used:
+ 4657 strings out of 495029
+ 72665 string characters out of 6181522
+ 170662 words of memory out of 5000000
+ 7855 multiletter control sequences out of 15000+600000
+ 3640 words of font info for 14 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 44i,5n,57p,542b,309s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on test.dvi (1 page, 10868 bytes).
