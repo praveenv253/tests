@@ -47,7 +47,7 @@ def gen_data(n, d, c, p=0.5):
 if __name__ == '__main__':
     num_total = 1000
     num_dims = 2
-    max_classif_acc = 0.8
+    max_classif_acc = 0.99
     (X, y, Q) = gen_data(num_total, num_dims, max_classif_acc)
 
     #print(Q)
@@ -59,12 +59,15 @@ if __name__ == '__main__':
     plt.scatter(X[0, y==1], X[1, y==1], alpha=0.4)
 
     # classifer = svm.LinearSVC(fit_intercept=False)
-    classifer = svm.SVC(kernel='poly', degree=5)
-    Cs = np.logspace(-4, 4, 25)
+    classifer = svm.SVC(kernel='rbf')
+    # Cs = np.logspace(-4, 4, 25)
+    Cs = np.logspace(-2, 2, 5)
+    gammas = np.logspace(-2, 2, 5)
     num_train = 700
 
     pipe = Pipeline(steps=[('svc', classifer)])
-    estimator = GridSearchCV(pipe, dict(svc__C=Cs), cv=5, n_jobs=1)
+    estimator = GridSearchCV(pipe, dict(svc__C=Cs, svc__gamma=gammas), cv=5,
+                             n_jobs=5)
     estimator.fit(X[:, :num_train].T, y[:num_train])
     best_svc = estimator.best_estimator_.named_steps['svc']
 
@@ -81,8 +84,9 @@ if __name__ == '__main__':
     # plt.plot(x1, x2, 'k', linewidth=0.75)
 
     x1, x2 = tuple(np.mgrid[-6:6:1000j, -6:6:1000j])
-    x1x2 = x1.ravel(), x2.ravel()
-    plt.contourf(x1, x2, best_svc.predict(np.c_[x1x2]).reshape((1000, 1000)),
+    x1x2 = np.c_[x1.ravel(), x2.ravel()]
+    # x1x2 = preprocessing.scale(x1x2)
+    plt.contourf(x1, x2, best_svc.predict(x1x2).reshape((1000, 1000)),
                  cmap=plt.cm.Greys, alpha=0.2)
 
     plt.axis('equal')
