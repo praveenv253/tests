@@ -8,12 +8,28 @@ import matplotlib.pyplot as plt
 
 def ar(n, coeffs, sigma, start=None, mu=0):
     """
-    Generates an AR process with `n` points and coefficients given by `coeffs`.
+    Generates an AR process with given parameters.
         x[k] = \sum_{i=1}^p coeffs[i] * x[k - i] + \epsilon[i]
     \epsilon[i] are iid with variance `sigma`**2
-    `start` is an optional vector of size equal to the number of coefficients
-    (by default they are all taken to be zero).
-    `mu` is an optional offset for epsilon (i.e. the mean). By default it is 0.
+
+    Parameters
+    ----------
+    n : integer
+        Number of time points
+    coeffs : array-like
+        Autoregressive coefficients in reverse time-order (used as shown above)
+    sigma : float
+        Standard deviation of the Gaussian innovation term epsilon
+    start :  array-like (optional; default zero)
+        Optional vector of size equal to the number of coefficients
+        (by default they are all taken to be zero).
+    mu : float (optional; default zero)
+        Optional offset for epsilon (i.e. the mean). By default it is 0.
+
+    Returns
+    -------
+    x : np.ndarray of shape (n,)
+        An autoregressive process generated from the given parameters
     """
 
     coeffs = np.array(coeffs)
