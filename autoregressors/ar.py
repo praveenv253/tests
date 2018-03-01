@@ -3,9 +3,14 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
+
+# XXX This is not really an AR process, because a real AR process would have
+#     an IIR filter, not an FIR filter! This is actually an MA process!
+
 def create_ar_data(coeffs, num_pts):
     e = np.random.normal(size=(num_pts + len(coeffs) - 1))
     return np.convolve(e, coeffs, 'valid')
+
 
 if __name__ == '__main__':
     n = 60
