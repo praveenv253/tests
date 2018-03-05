@@ -8,5 +8,9 @@ The timeline for this seems pretty good right now, because Qt5 support was
 merged into pyface/master on 24 Mar 2017. But the latest release of pyface as
 of this writing is 5.1.0, which was released Apr 2016.
 
-So in fact, experimental Qt5 support is possible by installing pyface master.
-This is probably easy enough to do via pip, but I'm not too keen.
+So in fact, experimental Qt5 support is possible by installing pyface master
+(see https://github.com/enthought/pyface/pull/264). This is probably easy
+enough to do via pip, but I'm not too keen.
+
+I'm guessing that pyface v6.0.0 is around the corner, based on milestones in
+github.
